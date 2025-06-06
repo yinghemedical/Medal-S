@@ -1,0 +1,53 @@
+{
+    "CT": {
+        "anatomy": {
+            "Left autochthon": 1,
+            "Right iliopsoas": 2,
+            "Right adrenal gland": 3,
+            "Left adrenal gland": 4,
+            "Right carotid artery": 5,
+            "Larynx-glottis": 6,
+            "Lips": 7,
+            "Spleen": 8,
+            "Sacrum": 9,
+            "Lung upper lobe right": 10,
+            "Trachea": 11,
+            "Stomach": 12,
+            "Right scapula": 13,
+            "Right clavicula": 14
+        },
+        "lesion": {}
+    },
+    "MRI": {
+        "anatomy": {
+            "Right adrenal gland": 1,
+            "Left atrium": 2,
+            "Right lung": 3,
+            "Sacrum": 4,
+            "Spinal cord": 5,
+            "Right hip": 6,
+            "Left gluteus medius": 7,
+            "Left gluteus minimus": 8,
+            "Left autochthon": 9,
+            "Intra-meatal region of vestibular schwannoma": 10,
+            "Extra-meatal region of vestibular schwannoma": 11,
+            "Right cochlea": 12,
+            "Thyroid": 13,
+            "Left carotid artery": 14,
+            "Right carotid artery": 15,
+            "Right atrium": 16,
+            "Pulmonary Artery": 17,
+            "Inferior vena cava": 18
+        },
+        "lesion": {}
+    },
+    "US": {
+        "anatomy": {
+            "Soleus": 1,
+            "Left ventricle": 2,
+            "Thyroid": 3,
+            "Jugular vein": 4
+        },
+        "lesion": {}
+    }
+}
