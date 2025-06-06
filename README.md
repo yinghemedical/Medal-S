@@ -53,5 +53,5 @@ python inference.py
 
 ## Acknowledgements
 Medal-S is developed and maintained by Medical Image Insights.
-![Logo](./assets/yh_logo.png)
+<img src="/assets/yh_logo.png" height="100px" />
 This project is significantly improved based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet/tree/master) and [SAT](https://github.com/zhaoziheng/SAT/tree/cvpr2025challenge). We extend our gratitude to both projects.
