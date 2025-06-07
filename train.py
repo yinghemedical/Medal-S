@@ -83,7 +83,7 @@ def main():
     
     # dispaly
     if is_master():
-        print('** GPU NUM ** : ', torch.cuda.device_count())  # 打印gpu数量
+        print('** GPU NUM ** : ', torch.cuda.device_count())
         print('** WORLD SIZE ** : ', torch.distributed.get_world_size())
     rank = dist.get_rank()
     print(f"** DDP ** : Start running DDP on rank {rank}.")
