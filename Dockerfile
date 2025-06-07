@@ -1,11 +1,14 @@
-FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime
+FROM ghcr.io/pytorch/pytorch-nightly:2.3.0.dev20240305-cuda12.1-cudnn8-runtime
 
-WORKDIR /app
+WORKDIR /workspace
 
-COPY . /app
+ENV PIP_CACHE_DIR=/root/.cache/pip
 
-RUN pip install --no-cache-dir -r requirements.txt
-RUN cd model
-RUN pip install -e dynamic-network-architectures-main
+COPY requirements.txt /workspace/
+RUN pip install \
+    --cache-dir ${PIP_CACHE_DIR} \
+    -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    -r requirements.txt
 
-CMD ["python", "inference_cvpr25.py"]
+COPY . /workspace
+RUN pip install -e ./model/dynamic-network-architectures-main
