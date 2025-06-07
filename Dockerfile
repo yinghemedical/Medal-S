@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime  # 或 python:3.9-slim
+FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime
 
 WORKDIR /app
 
