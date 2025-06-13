@@ -4,6 +4,8 @@
 
 This repository provides guidance for training and inference of Medal S within the [CVPR 2025: Foundation Models for Text-Guided 3D biomedical image segmentation](https://www.codabench.org/competitions/5651/)
 
+Docker link for the 2025/05/30 testing submission: [Medal S](https://drive.google.com/file/d/1HRJqYUXajptGsKaXEhn-s3rGcnKIwGs7/view)
+
 ## Requirements
 
 The U-Net implementation relies on a customized version of [dynamic-network-architectures](https://github.com/MIC-DKFZ/dynamic-network-architectures). To install it, navigate to the `model` directory and run:
