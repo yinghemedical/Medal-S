@@ -11,13 +11,13 @@ Docker link for the 2025/05/30 testing submission: [Medal S](https://drive.googl
 The U-Net implementation relies on a customized version of [dynamic-network-architectures](https://github.com/MIC-DKFZ/dynamic-network-architectures). To install it, navigate to the `model` directory and run:
 
 ```bash
-cd model
-pip install -e dynamic-network-architectures-main
-
 # Install nnU-Net v2.4.1:
 wget https://github.com/MIC-DKFZ/nnUNet/archive/refs/tags/v2.4.1.tar.gz
 tar -xvf v2.4.1.tar.gz
 pip install -e nnUNet-2.4.1
+
+cd model
+pip install -e dynamic-network-architectures-main
 ````
 
 **Python Version:** 3.10.16
