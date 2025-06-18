@@ -29,6 +29,7 @@ torch==2.2.0
 transformers==4.51.3
 monai==1.4.0
 nibabel==5.3.2
+tensorboard
 einops
 positional_encodings
 scipy
