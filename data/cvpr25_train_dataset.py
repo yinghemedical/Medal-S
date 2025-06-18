@@ -21,7 +21,6 @@ from train.dist import is_master
 from data.nnunet_dataset import nnUNetDatasetBlosc2
 from acvl_utils.cropping_and_padding.bounding_boxes import crop_and_pad_nd
 from data.augmentation import get_training_transforms, get_validation_transforms
-from data.data_loader_cvpr2025challenge import NAME2LOADER
 
 from data.default_resampling import resample_data_or_seg, compute_new_shape
 
