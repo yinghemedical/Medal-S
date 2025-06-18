@@ -13,12 +13,12 @@ The U-Net implementation relies on a customized version of [dynamic-network-arch
 ```bash
 cd model
 pip install -e dynamic-network-architectures-main
-````
 
-Install nnU-Net v2.4.1:
+# Install nnU-Net v2.4.1:
 wget https://github.com/MIC-DKFZ/nnUNet/archive/refs/tags/v2.4.1.tar.gz
 tar -xvf v2.4.1.tar.gz
 pip install -e nnUNet-2.4.1
+````
 
 **Python Version:** 3.10.16
 
