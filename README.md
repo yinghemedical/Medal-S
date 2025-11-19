@@ -1,6 +1,8 @@
 # Medal S: Spatio-Textual Prompt Model for Medical Segmentation
 
-**[Medal S openreview paper link](https://openreview.net/forum?id=9vCx66pnLn)**
+[![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](https://arxiv.org/abs/2511.13001)
+[![OpenReview](https://img.shields.io/badge/OpenReview-Discussion-4CAF50.svg)](https://openreview.net/forum?id=9vCx66pnLn#discussion)
+[![Docker](https://img.shields.io/badge/Docker-Image-2496ED.svg)](https://huggingface.co/spc819/Medal-S-V1.0/resolve/main/teamx.tar.gz)
 
 This repository provides guidance for training and inference of Medal S within the [CVPR 2025: Foundation Models for Text-Guided 3D biomedical image segmentation](https://www.codabench.org/competitions/5651/)
 
@@ -57,6 +59,19 @@ We provide inference code for test data:
 
 ```bash
 python inference.py
+```
+
+## Citation
+```
+@misc{shi2025medalsspatiotextualprompt,
+      title={Medal S: Spatio-Textual Prompt Model for Medical Segmentation}, 
+      author={Pengcheng Shi and Jiawei Chen and Jiaqi Liu and Xinglin Zhang and Tao Chen and Lei Li},
+      year={2025},
+      eprint={2511.13001},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.13001}, 
+}
 ```
 
 ## Acknowledgements
