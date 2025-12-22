@@ -10,36 +10,31 @@ Docker link for the 2025/05/30 testing submission: [Medal S](https://drive.googl
 
 ## Requirements
 
-The U-Net implementation relies on a customized version of [dynamic-network-architectures](https://github.com/MIC-DKFZ/dynamic-network-architectures). To install it, navigate to the `model` directory and run:
+**Python Version:** 3.10.16
+
+### Installation
+
+1. **Create conda environment and install dependencies:**
 
 ```bash
-# Install nnU-Net v2.4.1:
+#!/bin/bash
+
+# Create environment
+conda create -p /yinghepool/shipengcheng/.conda/envs/medals_local_test_2 python=3.10 -y
+source $(conda info --base)/etc/profile.d/conda.sh
+conda activate /yinghepool/shipengcheng/.conda/envs/medals_local_test_2
+
+# Install packages
+pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
+pip install transformers==4.51.3 monai==1.4.0 nibabel==5.3.2 tensorboard einops positional_encodings scipy pandas scikit-learn scikit-image batchgenerators acvl_utils
+
+# Install nnU-Net
 wget https://github.com/MIC-DKFZ/nnUNet/archive/refs/tags/v2.4.1.tar.gz
 tar -xvf v2.4.1.tar.gz
 pip install -e nnUNet-2.4.1
 
-cd model
-pip install -e dynamic-network-architectures-main
-````
-
-**Python Version:** 3.10.16
-
-**Key Python Packages:**
-
-```
-torch==2.2.0
-transformers==4.51.3
-monai==1.4.0
-nibabel==5.3.2
-tensorboard
-einops
-positional_encodings
-scipy
-pandas
-scikit-learn
-scikit-image
-batchgenerators
-acvl_utils
+# Install dynamic network architectures
+cd model && pip install -e dynamic-network-architectures-main && cd ..
 ```
 
 ## Training Guidance
