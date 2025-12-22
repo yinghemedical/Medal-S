@@ -1,0 +1,13 @@
+{
+    "texts": [
+        "Spleen in MRI"
+    ],
+    "normalization_settings": {
+        "percentile_lower": 0.5,
+        "percentile_upper": 99.5,
+        "preserve_zero": true
+    },
+    "modality": "MRI",
+    "instance_label": 0
+}
+

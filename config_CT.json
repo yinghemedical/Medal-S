@@ -1,0 +1,93 @@
+{
+    "texts_soft_tissue": [
+        "Aorta in whole body CT",
+        "gallbladder in whole body CT",
+        "left kidney in whole body CT",
+        "right kidney in whole body CT",
+        "liver in whole body CT",
+        "Pancreas in whole body CT",
+        "Spleen in whole body CT",
+        "stomach in whole body CT",
+        "Left adrenal gland in whole body CT",
+        "right adrenal gland in whole body CT",
+        "Bladder in whole body CT",
+        "Esophagus in whole body CT",
+        "Heart in whole body CT",
+        "Pulmonary vein in whole body CT",
+        "Brachiocephalic trunk in whole body CT",
+        "Right subclavian artery in whole body CT",
+        "Left subclavian artery in whole body CT",
+        "Right common carotid artery in whole body CT",
+        "Left common carotid artery in whole body CT",
+        "Left brachiocephalic vein in whole body CT",
+        "Right brachiocephalic vein in whole body CT",
+        "Left atrial appendage in whole body CT",
+        "Superior vena cava in whole body CT",
+        "Inferior vena cava in whole body CT",
+        "Portal vein and splenic vein in whole body CT",
+        "Left iliac artery in whole body CT",
+        "Right iliac artery in whole body CT",
+        "Left iliac vena in whole body CT",
+        "Right iliac vena in whole body CT",
+        "Spinal cord in whole body CT",
+        "Left gluteus Maximus in whole body CT",
+        "Right gluteus Maximus in whole body CT",
+        "Left gluteus Medius in whole body CT",
+        "Right gluteus Medius in whole body CT",
+        "Left gluteus Minimus in whole body CT",
+        "Right gluteus Minimus in whole body CT",
+        "Left autochthon in whole body CT",
+        "Right autochthon in whole body CT",
+        "Left iliopsoas in whole body CT",
+        "Right iliopsoas in whole body CT"
+    ],
+    "texts_bone": [
+        "Vertebrae C7 in whole body CT",
+        "Vertebrae C6 in whole body CT",
+        "Vertebrae C5 in whole body CT",
+        "Vertebrae C4 in whole body CT",
+        "Vertebrae C3 in whole body CT",
+        "Vertebrae C2 in whole body CT",
+        "Vertebrae C1 in whole body CT",
+        "Vertebrae T12 in whole body CT",
+        "Vertebrae T11 in whole body CT",
+        "Vertebrae T10 in whole body CT",
+        "Vertebrae T9 in whole body CT",
+        "Vertebrae T8 in whole body CT",
+        "Vertebrae T7 in whole body CT",
+        "Vertebrae T6 in whole body CT",
+        "Vertebrae T5 in whole body CT",
+        "Vertebrae T4 in whole body CT",
+        "Vertebrae T3 in whole body CT",
+        "Vertebrae T2 in whole body CT",
+        "Vertebrae T1 in whole body CT",
+        "Left humerus in whole body CT",
+        "Right humerus in whole body CT",
+        "Left clavicula in whole body CT",
+        "Right clavicula in whole body CT",
+        "Left femur in whole body CT",
+        "Right femur in whole body CT",
+        "Left hip in whole body CT",
+        "Right hip in whole body CT"
+    ],
+    "texts_lung": [
+        "Left lung in whole body CT",
+        "Right lung in whole body CT"
+    ],
+    "window_settings": {
+        "soft_tissue": {
+            "window_level": 40,
+            "window_width": 400
+        },
+        "bone": {
+            "window_level": 500,
+            "window_width": 1500
+        },
+        "lung": {
+            "window_level": -600,
+            "window_width": 1500
+        }
+    },
+    "modality": "CT",
+    "instance_label": 0
+}
