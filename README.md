@@ -3,7 +3,6 @@
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](https://arxiv.org/abs/2511.13001)
 [![OpenReview](https://img.shields.io/badge/OpenReview-Discussion-4CAF50.svg)](https://openreview.net/forum?id=9vCx66pnLn#discussion)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Model-yellow.svg)](https://huggingface.co/spc819/Medal-S-V1.0)
-[![Docker](https://img.shields.io/badge/Docker-Image-2496ED.svg)](https://huggingface.co/spc819/Medal-S-V1.0/resolve/main/teamx.tar.gz)
 
 This repository provides guidance for training and inference of Medal S within the [CVPR 2025: Foundation Models for Text-Guided 3D biomedical image segmentation](https://www.codabench.org/competitions/5651/)
 
