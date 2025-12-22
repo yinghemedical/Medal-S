@@ -20,9 +20,9 @@ Docker link for the 2025/05/30 testing submission: [Medal S](https://drive.googl
 #!/bin/bash
 
 # Create environment
-conda create -p /yinghepool/shipengcheng/.conda/envs/medals_local_test_2 python=3.10 -y
-source $(conda info --base)/etc/profile.d/conda.sh
-conda activate /yinghepool/shipengcheng/.conda/envs/medals_local_test_2
+conda create -p /yinghepool/shipengcheng/.conda/envs/medals_local_test python=3.10 -y
+
+conda activate /yinghepool/shipengcheng/.conda/envs/medals_local_test
 
 # Install packages
 pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
