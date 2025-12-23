@@ -20,7 +20,7 @@ Docker link for the 2025/05/30 testing submission: [Medal S](https://drive.googl
 #!/bin/bash
 
 # Create environment
-conda create -p medals_local_test python=3.10 -y
+conda create -n medals_local_test python=3.10 -y
 
 conda activate medals_local_test
 
